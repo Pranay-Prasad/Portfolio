@@ -1,0 +1,41 @@
+#about{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#about h2{font-size: 2rem;}
+#about h5{font-size: 1.2rem;}
+.about__container{
+    margin: 1.6rem;
+}
+.about__content{
+    margin: 1.2rem;
+    font-size: 1.3rem;
+    padding: 0 2.5rem;
+}
+.about__content >p{
+    margin: 0.5rem 0;
+}
+.about__profile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.about__codeprofile{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+.about__codeprofile a{
+    margin: 0.5rem 1rem;
+}
+@media screen and (max-width:600px){
+    #about{
+        margin-top: 1rem;
+    }
+    .about__content{
+        padding: 0 0.8rem;
+    }
+    .about__container{margin: 1rem;}
+    .about__container{margin: 1rem;}
+}

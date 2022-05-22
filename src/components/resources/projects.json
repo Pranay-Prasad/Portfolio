@@ -1,0 +1,35 @@
+[
+    {
+    "_id":"1",
+    "title":"I-BOOK",
+    "description":"Developed a cloud platform to store notes, Supported by user authentication system.",
+    "tags":"React JS, Node JS, Express JS, MongoDB, Bootstrap",
+    "link1":"https://github.com/Pranay-Prasad/I-BOOK",
+    "link2":"https://github.com/Pranay-Prasad/I-BOOK"
+    },
+    {
+        "_id":"2",
+        "title":"NewsMonk",
+        "description":"Developed a Online website to get Top headlines of the day using NewsAPI. ",
+        "tags":"React JS, JavaScript, Bootstrap",
+        "link1":"https://github.com/Pranay-Prasad/NewsMonk",
+        "link2":"https://github.com/Pranay-Prasad/NewsMonk"
+    },
+    {
+        "_id":"3",
+        "title":"VisualSort",
+        "description":"Developed a UI to visualize the sorting algorithms.",
+        "tags":"JavaScript, HTML, CSS",
+        "link1":"https://github.com/Pranay-Prasad/VisualSort",
+        "link2":"https://pranay-prasad.github.io/VisualSort/"
+    },
+    {
+        "_id":"4",
+        "title":"TypeMaster",
+        "description":"Developed a UI to test typing speed and get results.",
+        "tags":"JavaScript, HTML, CSS",
+        "link1":"https://github.com/Pranay-Prasad/TypeMaster",
+        "link2":"https://pranay-prasad.github.io/TypeMaster/"
+    }
+        
+]

@@ -1,0 +1,104 @@
+[
+    {
+      "_id": "6284d31be6b5dc31f11ad4d3",
+      "title": "C++",
+      "tag": "other",
+      "level": "Experienced"
+    },
+    {
+      "_id": "6284d332e6b5dc31f11ad4d4",
+      "title": "Java",
+      "tag": "other",
+      "level": "Beginner"
+    },
+    {
+      "_id": "6284d347e6b5dc31f11ad4d5",
+      "title": "Python",
+      "tag": "other",
+      "level": "Beginner"
+    },
+    {
+      "_id": "6284d360e6b5dc31f11ad4d6",
+      "title": "Data Structures",
+      "tag": "other",
+      "level": "Intermediate "
+    },
+    {
+      "_id": "6284d373e6b5dc31f11ad4d7",
+      "title": "Algorithms",
+      "tag": "other",
+      "level": "Intermediate "
+    },
+    {
+      "_id": "6284d390e6b5dc31f11ad4d8",
+      "title": "JavaScript",
+      "tag": "Frontend",
+      "level": "Intermediate"
+    },
+    {
+      "_id": "6284d3a8e6b5dc31f11ad4d9",
+      "title": "React Js",
+      "tag": "Frontend",
+      "level": "Intermediate "
+    },
+    {
+      "_id": "6284d3b8e6b5dc31f11ad4da",
+      "title": "HTML",
+      "tag": "Frontend",
+      "level": "Experienced "
+    },
+    {
+      "_id": "6284d3c9e6b5dc31f11ad4db",
+      "title": "CSS",
+      "tag": "Frontend",
+      "level": "Intermediate"
+    },
+    {
+      "_id": "6284d3e6e6b5dc31f11ad4dc",
+      "title": "Bootstrap",
+      "tag": "Frontend",
+      "level": "Beginner"
+    },
+    {
+      "_id": "6284d40de6b5dc31f11ad4dd",
+      "title": "Node JS",
+      "tag": "Backend",
+      "level": "Beginner"
+    },
+    {
+      "_id": "6284d41ce6b5dc31f11ad4de",
+      "title": "Express JS",
+      "tag": "Backend",
+      "level": "Beginner"
+    },
+    {
+      "_id": "6284d42be6b5dc31f11ad4df",
+      "title": "MongoDB",
+      "tag": "Backend",
+      "level": "Beginner"
+    },
+    {
+      "_id": "6284d435e6b5dc31f11ad4e0",
+      "title": "SQL",
+      "tag": "Backend",
+      "level": "Intermediate"
+    },
+    {
+      "_id": "6284d44fe6b5dc31f11ad4e1",
+      "title": "MATLAB",
+      "tag": "other",
+      "level": "Intermediate"
+    },
+    {
+      "_id": "62865f7788c3c421b918f26b",
+      "title": "GitHub",
+      "tag": "other",
+      "level": "Intermediate"
+    },
+    {
+      "_id": "62865f8488c3c421b918f26c",
+      "title": "GIT",
+      "tag": "other",
+      "level": "Intermediate"
+    }
+]

@@ -1,0 +1,7 @@
+.headname{
+    text-align: center;
+    padding-top: 2rem;
+}
+.headname h1{
+    color: var(--color-primary);
+}

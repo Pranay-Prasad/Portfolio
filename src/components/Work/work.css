@@ -1,0 +1,97 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1.5rem;
+}
+.portfolio__container > article{
+    display: none;
+}
+.portfolio__container > article:nth-child(-n+6){display:inline}
+.portfolio__item{
+    width: 90%;
+}
+.portfolio__item-img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 8%;
+    z-index: 1;
+    transform: translateY(100px);
+    transition: 0.5s;
+}
+.portfolio__item-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8%;
+    min-height: 30vh;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8) ;
+    background: var(--color-bg);
+    transform: translateY(-100px);
+}
+.portfolio__item-content > div{
+    flex-direction: row;
+}
+.portfolio__item-content > div a{
+    margin: 1rem;
+}
+.portfolio__item:hover .portfolio__item-img{
+    background: transparent;
+    border: 2px solid var(--color-bg-variant);
+    transform: translateY(-50px);
+    transition: 0.5s;
+}
+.seemore{
+    display: none;
+}
+/*********MEDIA QUERIES(MEDIUM DEVICES)*********/
+@media screen and (max-width: 1024px) {
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        padding-left: 5rem;
+    }
+    .portfolio__item{
+        width: 80%;
+    }
+    .portfolio__item-content{
+        
+        transform: translateY(-125px);
+    }
+    .portfolio__item-img{
+        transform: translateY(125px);   
+    }
+}
+/*********MEDIA QUERIES (small devices)**********/
+@media screen and (max-width: 600px) {
+    .portfolio__container{
+        padding-left: 0;
+        grid-template-columns: 1fr;
+    }
+    .portfolio__container >article{
+        display: none;
+    }
+    .portfolio__container > article:nth-child(-n+3){display: contents;}
+    .portfolio__item{
+        width: 100%;
+    }
+    .portfolio__item-content{
+        transform: translateY(-95px);
+    }
+    .portfolio__item-img{
+        transform: translateY(95px);   
+    }
+    .seemore{
+        display: contents;
+    }
+    .seemore a{
+        margin: 0 8rem;
+    }
+}
