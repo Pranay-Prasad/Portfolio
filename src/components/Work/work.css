@@ -83,10 +83,10 @@
         width: 100%;
     }
     .portfolio__item-content{
-        transform: translateY(-95px);
+        transform: translateY(-105px);
     }
     .portfolio__item-img{
-        transform: translateY(95px);   
+        transform: translateY(105px);   
     }
     .seemore{
         display: contents;

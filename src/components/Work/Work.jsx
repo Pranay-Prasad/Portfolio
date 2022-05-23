@@ -6,7 +6,7 @@ import projects from '../resources/projects.json'
 const Work = () => {
   // const context = useContext(Servercontext);
   // const {Projects} = context;
-  projects.reverse();
+  // projects.reverse();
   return (
     <section id='work'>
       <h5>My Recent Work</h5>
